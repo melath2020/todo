@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #eee;
+}
+
+.wrapper{
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+}
+.title{
+    text-align: center;
+    font-weight:400;
+    font-size: 18px; 
+    margin: 1rem 0rem;
+}
+.item{
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 12px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
+    margin-bottom: 0.74rem;
+}
+.item p{
+    flex-grow: 1;
+   
+}
+.my-btn{
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 5px;
+}
+.delete:hover{
+    background: red;
+    padding: 5px;
+    border-radius: 5px;
+    color: #eee;
+}
+
+.completed{
+    background: rgb(27, 136, 27);
+    color: #eee;
+}
+.completed button{
+    color: #eee;
+}
+
+/* form style */
+#todo-form{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    position: fixed;
+    max-width: 480px;
+    width: 100%;
+    bottom: 15px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
+}
+#todo-form input{
+    flex-grow: 1;
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    padding: 15px 12px;
+    font-size: 18px;
+    
+   
+}
+#todo-form button{
+    padding: 0 15px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 15px 12px;
+    font-size: 18px;
+    border: none;
+}
